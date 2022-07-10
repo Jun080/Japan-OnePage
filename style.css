@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #D3D4DA;
+}
+
+header{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+section{
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    min-height: 80vh;
+}
+
+ul {
+    display: block;
+    text-align: center;
+    margin: 2% auto;
+    width: 100%;
+    position: relative;
+}
+
+
+li {
+    margin-left: 3%;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+  }
+
+a {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: #28293E;
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    position: relative;
+    letter-spacing: 0.2em;
+}
+
+a:hover{
+    color: #E4A09A;
+}
+
+.home img{
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.img-map img{
+    width: 90%;
+    height: 90%;
+    object-fit:contain;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.left, .right{
+    font-family: "Montserrat";
+    font-size: 18px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.map{
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+}
+
+.visit{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.visit img{
+    width: 400px;
+    padding: 120px 0;
+}
+
+div.text h2{
+    margin-top: 10%;
+    margin-bottom: 15%;
+
+}
+
+.text{
+    background-color: #B1B3BE;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1{
+    font-family: "Playfair Display";
+    font-size: 90px;
+    color: #28293E;
+}
+
+h2{
+    font-family: "Playfair Display";
+    font-size: 40px;
+    color: #28293E;
+}
+
+h3{
+    font-family: "Playfair Display";
+    font-size: 30px;
+    color: #3B3D5C;
+}
