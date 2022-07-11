@@ -98,10 +98,17 @@ a:hover{
     padding: 121px 0;
 }
 
-div.text h2{
+.img-left{
+    width: 400px;
+    padding: 120px 0;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div.text h2, div.text-right h2{
     margin-top: 10%;
     margin-bottom: 15%;
-
 }
 
 .text{
@@ -112,6 +119,18 @@ div.text h2{
     flex-direction: column;
     text-align: center;
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.text-right{
+    background-color: #B1B3BE;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
